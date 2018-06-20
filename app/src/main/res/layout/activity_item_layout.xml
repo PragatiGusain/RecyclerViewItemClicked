@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name1"
+        android:textColor="#000"
+        android:id="@+id/student_name"
+        android:background="#f9d47e15"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_name"
+        android:text="Recycler Number"
+        android:textColor="#000"
+        android:paddingBottom="6dp"
+        android:id="@+id/recycler_number"
+        android:background="#b45f5f"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</RelativeLayout>
